@@ -16,5 +16,5 @@ The certificate consisted of the following modules:
 Practicing some Python basics:
 - String concatenation ([madlips.py](002_Python_Basics/madlips.py))
 - User input and while loops ([guess_number.py](002_Python_Basics/guess_number.py))
-- Random choice of list elements ([rock_paper_scissors.py](002_Python_Basics/rock_paper_scissory.py))
+- Random choice of list elements ([rock_paper_scissors.py](002_Python_Basics/rock_paper_scissors.py))
 - Request data from web (GET) and List-Comprehension ([hangman.py](002_Python_Basics/hangman.py))
