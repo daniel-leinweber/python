@@ -11,3 +11,7 @@ The certificate consisted of the following modules:
 - Troubleshooting and Debugging Techniques
 - Configuration Management and the Cloud
 - Automating Real-World Tasks with Python
+
+## [Python Basics](002_Python_Basics/)
+Practicing some Python basics:
+- String concatenation ([madlips.py](002_Python_Basics/madlips.py))
