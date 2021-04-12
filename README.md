@@ -15,3 +15,4 @@ The certificate consisted of the following modules:
 ## [Python Basics](002_Python_Basics/)
 Practicing some Python basics:
 - String concatenation ([madlips.py](002_Python_Basics/madlips.py))
+- User input and while loops ([guess_number.py](002_Python_Basics/guess_number.py))
