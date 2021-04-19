@@ -18,3 +18,7 @@ Practicing some Python basics:
 - User input and while loops ([guess_number.py](002_Python_Basics/guess_number.py))
 - Random choice of list elements ([rock_paper_scissors.py](002_Python_Basics/rock_paper_scissors.py))
 - Request data from web (GET) and List-Comprehension ([hangman.py](002_Python_Basics/hangman.py))
+
+## [PyGame](003_PyGame/)
+Creating some simple games with the PyGame module.
+- Snake ([snake.py](003_PyGame/snake/snake.py))
