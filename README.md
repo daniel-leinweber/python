@@ -22,3 +22,4 @@ Practicing some Python basics:
 ## [PyGame](003_PyGame/)
 Creating some simple games with the PyGame module.
 - Snake ([snake.py](003_PyGame/snake/snake.py))
+- Space Shooter ([space_shooter.py](003_PyGame/space_shooter/space_shooter.py))
