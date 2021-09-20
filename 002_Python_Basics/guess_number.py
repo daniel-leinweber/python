@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
+
 import random
+
 
 def guess(x):
     random_number = random.randint(1, x)
@@ -13,6 +15,7 @@ def guess(x):
             print('Sorry, guess again. Too high.')
 
     print(f'Congrats! You have guessed the number {random_number} correctly!')
+
 
 def computer_guess(x):
     low = 1
@@ -33,13 +36,15 @@ def computer_guess(x):
 
     print(f'The computer guessed your number, {guess}, correctly!')
 
-game = input('Do you want to guess a number (M), or should the computer guess your number (C)? ').lower()
 
-if game == 'm':
-    high = int(input('Please choose the maximum number: '))
-    guess(high)
-elif game == 'c':
-    high = int(input('Please choose the maximum number: '))
-    computer_guess(high)
-else:
-    print(f'Option {game} is not a valid game! Please restart...')
+if __name__ == '__main__':
+    game = input('Do you want to guess a number (M), or should the computer guess your number (C)? ').lower()
+
+    if game == 'm':
+        high = int(input('Please choose the maximum number: '))
+        guess(high)
+    elif game == 'c':
+        high = int(input('Please choose the maximum number: '))
+        computer_guess(high)
+    else:
+        print(f'Option {game} is not a valid game! Please restart...')

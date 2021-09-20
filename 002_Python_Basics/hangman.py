@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
+
 import requests
 import random
 import string
+
 
 def get_valid_word(words):
     word = random.choice(words)
@@ -10,6 +12,7 @@ def get_valid_word(words):
         word = random.choice(words)
 
     return word.upper()
+
 
 def hangman():
     url = 'https://www.randomlists.com/data/words.json'
@@ -45,4 +48,6 @@ def hangman():
     else:
         print('You guessed the word', word, '!')
 
-hangman()
+
+if __name__ == '__main__':
+    hangman()
