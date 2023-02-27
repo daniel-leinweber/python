@@ -23,3 +23,7 @@ Practicing some Python basics:
 Creating some simple games with the PyGame module.
 - Snake ([snake.py](003_PyGame/snake/snake.py))
 - Space Shooter ([space_shooter.py](003_PyGame/space_shooter/space_shooter.py))
+
+## [PyTube and argparse](004_YouTube_Downloader/)
+Practicing parsing CLI arguments and using the PyTube library:
+- YouTube Downloader [download.py](004_YouTube_Downloader/download.py)
